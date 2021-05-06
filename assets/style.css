@@ -41,6 +41,12 @@ header form {
   border-radius: 20px;
   padding-left: 15px;
 }
+button {
+  border-radius: 10px;
+  width: 80px;
+  outline: none;
+  
+}
 
 /* Styling movies */
 main {
@@ -70,3 +76,7 @@ h2 {
   text-align: center;
   color: #fff;
 }
+button {
+
+}
+
