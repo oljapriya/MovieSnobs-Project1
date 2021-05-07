@@ -15,7 +15,7 @@ $(document).ready(function(){
       success:function(data){
         console.log(data)
 
-        result = `<img style="float:left" class="img-thumnail" width="200" height="200" src="${data.Poster}"/>`
+        result = `<img style="float:left" class="img-thumnail" src="${data.Poster}"/>`
           
         $("#result").html(result)
 
