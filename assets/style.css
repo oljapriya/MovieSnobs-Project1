@@ -14,6 +14,13 @@
   border-radius: 20px;
   padding-left: 15px;
 }
+
+img{
+  max-height: 600px;
+  max-width: 480px;
+  border: solid #fffEAD;
+  border-width: thick;
+}
 button {
   width: 100px;
   height: 30px;
