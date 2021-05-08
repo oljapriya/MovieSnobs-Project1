@@ -36,7 +36,7 @@ button {
   
 
 /* Styling movies */
-main {
+/* main {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -62,4 +62,3 @@ h2 {
   font-weight: bold;
   text-align: center;
   color: #fff;
-} 
