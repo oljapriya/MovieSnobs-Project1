@@ -1,37 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
 
-header {
-  width: 100%;
-  height: 50px;
-  background: rgb(38, 39, 38);
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  border-bottom: 1px solid #ccc;
-}
-
-header h1 {
-  margin: 0 20px;
-  color: #fff;
-}
-
-header a {
-  text-decoration: none;
-}
-
-header form {
-  display: flex;
-  align-items: center;
-}
 
 #search {
   width: 230px;
@@ -42,11 +9,13 @@ header form {
   padding-left: 15px;
 }
 button {
-  border-radius: 10px;
-  width: 80px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid black;
   outline: none;
-  
+  border-radius: 20px;
 }
+  
 
 /* Styling movies */
 main {
@@ -75,8 +44,4 @@ h2 {
   font-weight: bold;
   text-align: center;
   color: #fff;
-}
-button {
-
-}
-
+} 
