@@ -1,7 +1,8 @@
-/* *{
+ /* *{
   background-color: #c71c25;
   background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
 }
+
 #h1font{
   align-items: center;
   font-family: 'Limelight', cursive;
@@ -9,8 +10,8 @@
   color: #FDFCFA;
   background-color: #fcc252;
   border-radius: 0% 0% 40% 40%;
-  background-image: url("https://www.transparenttextures.com/patterns/crisp-paper-ruffles.png")
-}
+  background-image: url("https://www.transparenttextures.com/patterns/crisp-paper-ruffles.png")  */
+
 #search {
   width: 230px;
   height: 30px;
@@ -25,14 +26,14 @@ img{
   max-width: 480px;
   border: solid #fffEAD;
   border-width: thick;
-} */
+} 
   button {
   width: 100px;
   height: 30px;
   border: 1px solid black;
   outline: none;
   border-radius: 20px;
-}  */
+} 
   
 
 /* Styling movies */
