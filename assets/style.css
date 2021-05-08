@@ -1,5 +1,16 @@
-
-
+*{
+  background-color: #c71c25;
+  background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
+}
+#h1font{
+  align-items: center;
+  font-family: 'Limelight', cursive;
+  font-size: 100px;
+  color: #FDFCFA;
+  background-color: #fcc252;
+  border-radius: 0% 0% 40% 40%;
+  background-image: url("https://www.transparenttextures.com/patterns/crisp-paper-ruffles.png")
+}
 #search {
   width: 230px;
   height: 30px;
@@ -7,6 +18,13 @@
   outline: none;
   border-radius: 20px;
   padding-left: 15px;
+}
+
+img{
+  max-height: 600px;
+  max-width: 480px;
+  border: solid #fffEAD;
+  border-width: thick;
 }
 button {
   width: 100px;
