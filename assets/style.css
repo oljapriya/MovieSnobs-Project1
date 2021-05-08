@@ -1,10 +1,15 @@
-
+*{
+  background-color: #c71c25;
+  background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
+}
 #h1font{
   align-items: center;
   font-family: 'Limelight', cursive;
   font-size: 100px;
-  color: #7e1616;
+  color: #FDFCFA;
   background-color: #fcc252;
+  border-radius: 0% 0% 40% 40%;
+  background-image: url("https://www.transparenttextures.com/patterns/crisp-paper-ruffles.png")
 }
 #search {
   width: 230px;
