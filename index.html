@@ -14,23 +14,22 @@
       <h1 class=" hero is-warning hero-body title is-1" id="h1font">Movie Snobs</h1>
       <form id="movieForm">
         <div class="form-group">
-          <label for="Movie">Movie Name</label>
+          <label for="Movie"><b>Search For Movie</b></label>
           <input class="form-control" type="text" id="movie" placeholder="Movie...">
-        </div>
-        <div class="form-group">
-          <button>
-            Search Movie
-          </button>
-          <div>
-            <button id="clearbtn">Clear</button>
-          </div>
-        </div>
+          <input type="Submit" value="Submit">
+          <input type="reset" value="Reset">
+        </div>  
       </form>
+      <br>
 
       <!-- The main tag where we are putting all our movies from API-->
       <div id="result"></div>
 
       <div id="result" class="image is-2by3"></div>
+
+      
+        
+      
     </header>
 
     
@@ -43,6 +42,7 @@
 
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="assets/script.js"></script>
   </body>
   
