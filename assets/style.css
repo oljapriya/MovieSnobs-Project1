@@ -1,47 +1,47 @@
-
-
-#search {
-  width: 230px;
-  height: 30px;
-  border: 1px solid black;
-  outline: none;
-  border-radius: 20px;
-  padding-left: 15px;
+ *{
+  background-color: rgb(241, 86, 94);
+  background-image: url("https://www.transparenttextures.com/patterns/black-paper.png");
+  color: rgba(0,0,0,.7);
 }
-button {
-  width: 100px;
-  height: 30px;
-  border: 1px solid black;
-  outline: none;
-  border-radius: 20px;
+
+#h1font{
+  align-items: center;
+  font-family: 'Limelight', cursive;
+  font-size: 100px;
+  /* background-color: #fcc252; */
+  border-radius: 0% 0% 40% 40%;
 }
+  input[type=text] {
+    padding:10px;
+    margin: 10px 0;
+    border-radius:10px;
+    
+  }
+  input[type=Submit] {
+    padding:10px;
+    margin: 10px 0;
+    border-radius:10px;
+  }
+  input[type=reset] {
+    padding:10px;
+    margin: 10px 0;
+    border-radius:10px;
+  }
+  ::placeholder {
+    color: black;
+  }
+ 
   
 
-/* Styling movies */
-main {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 
-main div {
-  width: 250;
-  height: 320;
-  margin:19px 15px;
-  background: red;
-}
+  /* background-image: url("https://www.transparenttextures.com/patterns/crisp-paper-ruffles.png")   */
 
-img {
-  width: 100%;
-  height: 89%;
-  object-fit: cover;
-}
 
-h2 {
-  font-size: 20px;
-  font-family: sans-serif;
-  font-weight: bold;
-  text-align: center;
-  color: #fff;
-} 
+/* img{
+  max-height: 600px;
+  max-width: 480px;
+  border: solid #fffEAD;
+  border-width: thick;
+
+}  */
+ 

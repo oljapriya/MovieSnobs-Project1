@@ -4,30 +4,36 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Movie App</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
     <link rel="stylesheet" href="assets/style.css">
   </head>
   <body>
     <div class="container">
-      <h1 class="text-center mt-5">Movie Info App</h1>
+      <h1 class=" hero is-warning hero-body title is-1" id="h1font">Movie Snobs</h1>
       <form id="movieForm">
         <div class="form-group">
-          <label for="Movie">Movie Name</label>
+          <label for="Movie"><b>Search For Movie</b></label>
           <input class="form-control" type="text" id="movie" placeholder="Movie...">
-        </div>
-        <div class="form-group">
-          <button class="btn btn-danger btn-block">
-            Search Movie
-          </button>
-        </div>
+          <input type="Submit" value="Submit">
+          <input type="reset" value="Reset">
+        </div>  
       </form>
+      <br>
+
+      <!-- The main tag where we are putting all our movies from API-->
       <div id="result"></div>
+
+      <div id="result" class="image is-2by3"></div>
+
+      
+        
+      
     </header>
 
-    <!-- The main tag where we are putting all our movies from API-->
-    <div>
-      <button id="clearbtn">Clear</button>
-    </div>
+    
+    
     
 
   
@@ -36,6 +42,7 @@
 
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="assets/script.js"></script>
   </body>
   
