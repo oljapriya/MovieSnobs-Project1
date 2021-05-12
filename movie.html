@@ -11,39 +11,31 @@
   </head>
 
   <body>
-    <div class="container">
+    <div>
       <h1 class=" hero is-warning hero-body title is-1" id="h1font">Movie Snobs</h1>
-      <!-- <a class="navbar" href="index.html">Movie Info</a> -->
-      
-      <form id="movieForm">
-        <div class="form-group">
-          <label for="Movie" id="searchMovie"><b>Search For Movie</b></label>
-          <input class="form-control" type="text" id="movie" placeholder="Movie...">
-          <input type="Submit" value="Submit" class="button is-outlined btncolor is-hovered">
-          <input type="reset" value="Reset" class="button is-outlined btncolor is-hovered">
-        </div>  
-      </form>
+     <button><a href="index.html">Go Back To Search</a></button>
     </div>
-    
 
       <!--movies from API-->
-      <div class="container">
-        <div id="result_data"></div> 
+    <div>
+      <div id="movie"></div> 
+    </div>
       
       <!-- <div id="result_data"></div> -->
+      <!-- <div id="result_image" class="image is-2by3"></div> -->
       
-      <div id="result_image" class="image is-2by3"></div>
-      <!-- The main tag where we are putting all our movies from API-->
       
+
+      
+  
   
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
     <!-- <script src="assets/script.js"></script> -->
-    <script src="/assets/newScript.js"></script>
+    <script src="newScript.js"></script>
     <script>
       getMovie();
     </script>
   </body>
-  
-  
 </html>
