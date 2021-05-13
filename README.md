@@ -17,7 +17,7 @@ Our group decided to come up with a repo that would connect two databases in one
 ## References
 - [Bulma](https://bulma.io) - Used for css styling
 - [jQuery](https://jquery.com) - Used for reducing the workload on the keyboard
-- [TheMovieDatabase](https://www.themoviedb.org) - Used for obtaining Poster art
+- [TheMovieDatabase](https://www.themoviedb.org) - Used for obtaining poster art
 - [OpenMovie Database](https://www.omdbapi.com) - Used for obtaining movie data (title, year, genre, ratings)
 - [Google Fonts](https://fonts.google.com) - Used for the font
 
