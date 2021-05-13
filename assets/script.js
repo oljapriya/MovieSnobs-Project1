@@ -37,7 +37,7 @@ $(document).ready(function () {
       event.preventDefault()
       var movie = $("#movie").val()
       var result = ""
-      var url = "http://www.omdbapi.com/?i=tt3896198&apikey=" + apiKey
+      var url = "https://www.omdbapi.com/?i=tt3896198&apikey=" + apiKey
 
       $.ajax({
           method: 'GET',
