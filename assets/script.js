@@ -1,10 +1,14 @@
 $(document).ready(function () {
 
   let btnClear = document.querySelector('#clearbtn')
-  let inputs = document.querySelector('#search')
+  let inputs = document.querySelectorAll('#movie, #result_data, #result_image')
   // section for rest button to clear form //
   btnClear.addEventListener('click', () => {
-      inputs.forEach(input => input.value = '');
+      inputs.forEach(input => {
+      input.value = '';
+      input.innerHTML = '';
+      });
+      
   })
 
 
