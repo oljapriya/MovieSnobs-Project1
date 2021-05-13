@@ -5,7 +5,7 @@
 In our class, we were assigned to complete a responsive project that includes: 2 APIs, a styling CDN (not Bootstrap), and use of collaborative tools within GitHub. In this project we delegated parts of the project to be completed by each of the members. One person was in charge of researching and deploying one of the two APIs. Another member worked on the HTML layout, and another worked on researching Bulma and styling the project.
 
 # About this Repo
-Our group decided to come up with a repo that would connect to databases in one, and act as a movie database search engine. On our index.html, you are greeted with a movie theater look and feel with a search bar to lookup your query. Once you search for a movie, with the use of JavaScript and jQuery, the page will dynamically display the first result of your search connecting the two APIs. When you click the reset button, the page will refresh, clearing out your changes.
+Our group decided to come up with a repo that would connect two databases in one, and act as a movie database search engine. On our index.html, you are greeted with a movie theater look and feel with a search bar to lookup your query. Once you search for a movie, with the use of JavaScript and jQuery, the page will dynamically display the first result of your search connecting the two APIs. When you click the reset button, the page will refresh, clearing out your changes.
 
 ## Table of Contents
 - Index
