@@ -38,6 +38,18 @@ body{
   
   }
 
+h5{
+  color: #000000;
+  margin-top: 4.5vh;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+b{
+  color: #000000;
+  margin-top: 4vh;
+  font-size: 25px;
+  font-family: 'Limelight', cursive, sans-serif;
+}
  #searchMovie{
   font-family: 'Limelight', cursive, sans-serif;
   font-size: 25px;
