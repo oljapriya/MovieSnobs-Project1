@@ -11,7 +11,7 @@ Our group decided to come up with a repo that would connect two databases in one
 - Index
 
 **Index Page**
-![Index](assets/site.png)
+![Index](assets/screenshot.png)
 
 
 ## References
